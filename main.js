@@ -1,4 +1,4 @@
-const varFind = function(predicate, object) {
+varFind = function(predicate, object) {
 	if(object == undefined){
 		object = {};
 	}
