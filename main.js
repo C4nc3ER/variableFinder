@@ -1,4 +1,4 @@
-consr varFindr = function(predicate, object) {
+const varFindr = function(predicate, object) {
 	if(object == undefined){
 		object = {};
 	}
@@ -77,3 +77,5 @@ consr varFindr = function(predicate, object) {
 		return similarities(paths[0], paths[1]);
 	}
 };
+
+alert(varFindr + "Thank you for using variableFinder fork A.\r\nDeveloped by v0idPlayer/C4nC3R.");
