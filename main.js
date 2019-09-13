@@ -1,4 +1,4 @@
-varFind = function(predicate, object) {
+consr varFindr = function(predicate, object) {
 	if(object == undefined){
 		object = {};
 	}
@@ -14,7 +14,7 @@ varFind = function(predicate, object) {
 		const results = []; // The array of paths that satify the predicate === true
 		var pathNumber = 0;
 		if (!obj && (typeof obj !== "object" || Array.isArray(obj))) {
-			throw new TypeError("Third argument of varFind is not the correct type Object");
+			throw new TypeError("Third argument of varFindr is not the correct type Object");
 		}
 		if (typeof predicate !== "function") {
 			throw new TypeError("Predicate is not a function");
